@@ -11,3 +11,4 @@ var ErrNotFound = errors.New("not found")
 type Store struct {
 	Pool *pgxpool.Pool
 }
+
